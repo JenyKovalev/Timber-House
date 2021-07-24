@@ -1,8 +1,6 @@
 .wrapper--head{
     position: relative;
     height: 150vh;
-    // max-width: 1920px;
-    // max-height: 1080px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -152,12 +150,10 @@
         border: 3px solid #effd15;
         a{
             color: white;
-            // margin-top: 40px;
         }
     }
 }
 .wrapper--gallery{
-    // margin: 0 auto;
     width: 760px;
     margin: 0 auto;
     text-align: center;
