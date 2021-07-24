@@ -1,0 +1,291 @@
+.wrapper--head{
+    position: relative;
+    height: 150vh;
+    // max-width: 1920px;
+    // max-height: 1080px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    &__inner{
+        position: absolute;
+        top: 150px;
+        left: 150px;
+        background-color: white;
+        width: 530px;
+        height: 530px;
+        border-radius: 50%;
+        border: 10px solid #f4d4a5;
+        padding-top: 13px;
+        text-align: center;
+        &__icon{
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        &__name{
+            color: #bf4200;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 600;
+            font-size: 25px;
+            margin-bottom: 30px;
+        }
+        &__phone{
+            font-family: 'Roboto', sans-serif;
+            font-weight: lighter;
+            font-size: 30px;
+            margin-bottom: 50px;   
+        }
+        &__description{
+            color: #1fad26;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 45px;
+        }
+        &__gift{
+            margin-top: 80px;
+        }
+    }    
+}
+
+.wrapper--description{
+    text-align: center;
+    &__material{
+        color: #d07a2d;
+        font-size: 41px;
+        padding: 85px 0 94px 0;
+    }
+    &__amount{
+        color: black;
+        font-size: 30px;
+        padding-bottom: 50px;
+    }
+    &__experience{
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    &__quality{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        padding-bottom: 48px;
+    }
+    &__warranty{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        padding-bottom: 48px;
+    }
+    &__image{
+       
+        width: 160px;
+        height: 115px;
+        margin: 0 auto;
+        padding-bottom: 100px;
+        img{
+            object-fit: contain;
+            width: 100%;
+            height: 100%;
+            padding-bottom: 100px;
+        }
+    }
+}
+.wrapper--project{
+    text-align: center;
+    margin-bottom: 140px;
+    &__title{
+        color:#d07a2d;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        padding-bottom: 100px;
+    }
+    &__name{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    &__price{
+        color: #17753b;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        padding-bottom: 34px;
+    }
+    &__images{
+        margin: 0 auto;
+        max-width: 900px;
+        max-height: 565px;    
+        img{
+            object-fit: contain;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+}
+.wrapper--download{
+    background-color:#f1dfbc;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    &__image{
+        padding-top: 36px;
+        margin: 0 auto;
+        height: 141px;
+        width: 300px;
+        img{
+            object-fit: contain;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__link{
+        background-color: green;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        height: 90px;
+        max-width: 600px;
+        border: 3px solid #effd15;
+        a{
+            color: white;
+            // margin-top: 40px;
+        }
+    }
+}
+.wrapper--gallery{
+    // margin: 0 auto;
+    width: 760px;
+    margin: 0 auto;
+    text-align: center;
+    &__title{
+        color:#d07a2d;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        font-size: 25px;
+        margin-top: 35px;
+        
+    }
+    &__description{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+}
+.wrapper--footer{
+    text-align: center;
+    &__images{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    &__phone{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        font-size: 25px;
+        margin-bottom: 90px;
+    }
+    &__mail{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+
+    }
+}
+
+@media (max-width: 768px){
+    .wrapper--head{
+        &__inner{
+        width: 400px;
+        height: 400px;
+        &__description{
+            color: #1fad26;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 35px;
+        }
+        &__gift{
+            margin-top: 30px;
+        }
+    }        
+    }
+    .wrapper--gallery{
+        display: none;
+    }
+}
+@media(max-width: 600px){
+    .wrapper--head{
+        height: 80vh;
+        &__inner{
+            top: 50px;
+            left: 50px;
+            background-color: white;
+            width: 300px;
+            height: 300px;
+           
+            &__icon{
+                margin-top: 5px;
+                margin-bottom: 10px;
+            }
+            &__name{
+                color: #bf4200;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 600;
+                font-size: 10px;
+                margin-bottom: 10px;
+            }
+            &__phone{
+                font-family: 'Roboto', sans-serif;
+                font-weight: lighter;
+                font-size: 20px;
+                margin-bottom: 50px;   
+            }
+            &__description{
+                color: #1fad26;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 700;
+                font-size: 20px;
+            }
+            &__gift{
+                height: 180px;
+                width: 180px;
+                margin-top: 30px;
+                img{
+                    object-fit: contain;
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }    
+    }
+
+}
+@media(max-width: 600px){
+    .wrapper--head{
+        height: 50vh;
+        &__inner{ 
+            background-color: white;
+            width: 250px;
+            height: 250px;
+            &__phone{
+                margin-bottom: 20px;
+            }
+            &__gift{
+                height: 100px;
+                width: 100px;
+                margin-top: 0px;
+                img{
+                    object-fit: contain;
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }    
+    }
+
+}
+
+

@@ -1,0 +1,230 @@
+.wrapper--head {
+  position: relative;
+  height: 150vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+  .wrapper--head__inner {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    background-color: white;
+    width: 530px;
+    height: 530px;
+    border-radius: 50%;
+    border: 10px solid #f4d4a5;
+    padding-top: 13px;
+    text-align: center; }
+    .wrapper--head__inner__icon {
+      margin-top: 10px;
+      margin-bottom: 20px; }
+    .wrapper--head__inner__name {
+      color: #bf4200;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 600;
+      font-size: 25px;
+      margin-bottom: 30px; }
+    .wrapper--head__inner__phone {
+      font-family: 'Roboto', sans-serif;
+      font-weight: lighter;
+      font-size: 30px;
+      margin-bottom: 50px; }
+    .wrapper--head__inner__description {
+      color: #1fad26;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700;
+      font-size: 45px; }
+    .wrapper--head__inner__gift {
+      margin-top: 80px; }
+
+.wrapper--description {
+  text-align: center; }
+  .wrapper--description__material {
+    color: #d07a2d;
+    font-size: 41px;
+    padding: 85px 0 94px 0; }
+  .wrapper--description__amount {
+    color: black;
+    font-size: 30px;
+    padding-bottom: 50px; }
+  .wrapper--description__experience {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase; }
+  .wrapper--description__quality {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 48px; }
+  .wrapper--description__warranty {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 48px; }
+  .wrapper--description__image {
+    width: 160px;
+    height: 115px;
+    margin: 0 auto;
+    padding-bottom: 100px; }
+    .wrapper--description__image img {
+      object-fit: contain;
+      width: 100%;
+      height: 100%;
+      padding-bottom: 100px; }
+
+.wrapper--project {
+  text-align: center;
+  margin-bottom: 140px; }
+  .wrapper--project__title {
+    color: #d07a2d;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 100px; }
+  .wrapper--project__name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 20px; }
+  .wrapper--project__price {
+    color: #17753b;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    padding-bottom: 34px; }
+  .wrapper--project__images {
+    margin: 0 auto;
+    max-width: 900px;
+    max-height: 565px; }
+    .wrapper--project__images img {
+      object-fit: contain;
+      width: 100%;
+      height: 100%; }
+
+.wrapper--download {
+  background-color: #f1dfbc;
+  text-align: center;
+  height: 300px;
+  width: 100%; }
+  .wrapper--download__image {
+    padding-top: 36px;
+    margin: 0 auto;
+    height: 141px;
+    width: 300px; }
+    .wrapper--download__image img {
+      object-fit: contain;
+      width: 100%;
+      height: 100%; }
+  .wrapper--download__link {
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 90px;
+    max-width: 600px;
+    border: 3px solid #effd15; }
+    .wrapper--download__link a {
+      color: white; }
+
+.wrapper--gallery {
+  width: 760px;
+  margin: 0 auto;
+  text-align: center; }
+  .wrapper--gallery__title {
+    color: #d07a2d;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 35px; }
+  .wrapper--gallery__description {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 35px; }
+
+.wrapper--footer {
+  text-align: center; }
+  .wrapper--footer__images {
+    margin-top: 100px;
+    margin-bottom: 100px; }
+  .wrapper--footer__phone {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    margin-bottom: 90px; }
+  .wrapper--footer__mail {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 20px; }
+
+@media (max-width: 768px) {
+  .wrapper--head__inner {
+    width: 400px;
+    height: 400px; }
+    .wrapper--head__inner__description {
+      color: #1fad26;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700;
+      font-size: 35px; }
+    .wrapper--head__inner__gift {
+      margin-top: 30px; }
+
+  .wrapper--gallery {
+    display: none; } }
+@media (max-width: 600px) {
+  .wrapper--head {
+    height: 80vh; }
+    .wrapper--head__inner {
+      top: 50px;
+      left: 50px;
+      background-color: white;
+      width: 300px;
+      height: 300px; }
+      .wrapper--head__inner__icon {
+        margin-top: 5px;
+        margin-bottom: 10px; }
+      .wrapper--head__inner__name {
+        color: #bf4200;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        font-size: 10px;
+        margin-bottom: 10px; }
+      .wrapper--head__inner__phone {
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        font-size: 20px;
+        margin-bottom: 50px; }
+      .wrapper--head__inner__description {
+        color: #1fad26;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 20px; }
+      .wrapper--head__inner__gift {
+        height: 180px;
+        width: 180px;
+        margin-top: 30px; }
+        .wrapper--head__inner__gift img {
+          object-fit: contain;
+          height: 100%;
+          width: 100%; } }
+@media (max-width: 600px) {
+  .wrapper--head {
+    height: 50vh; }
+    .wrapper--head__inner {
+      background-color: white;
+      width: 250px;
+      height: 250px; }
+      .wrapper--head__inner__phone {
+        margin-bottom: 20px; }
+      .wrapper--head__inner__gift {
+        height: 100px;
+        width: 100px;
+        margin-top: 0px; }
+        .wrapper--head__inner__gift img {
+          object-fit: contain;
+          height: 100%;
+          width: 100%; } }
+
+/*# sourceMappingURL=style.css.map */
